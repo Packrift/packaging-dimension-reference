@@ -419,11 +419,11 @@ function pageShell({ title, description, canonical, body, nav = true, schema }) 
   <header>
     <div class="wrap top">
       <a class="brand" href="${baseUrl}/">Packrift packaging dimension reference</a>
-      ${nav ? `<nav><a href="${baseUrl}/sku-index.html">SKU index</a><a href="${baseUrl}/page-types.html">Reference types</a><a href="${baseUrl}/sitemap.xml">Sitemap</a><a href="https://packrift.com/">Packrift.com</a></nav>` : ""}
+      ${nav ? `<nav><a href="${baseUrl}/sku-index.html">SKU index</a><a href="${baseUrl}/page-types.html">Reference types</a><a href="${baseUrl}/sitemap.xml">Sitemap</a><a href="https://packrift.com/pages/tools">Packaging tools</a><a href="https://packrift.com/">Packrift.com</a></nav>` : ""}
     </div>
   </header>
   <main class="wrap">${body}</main>
-  <footer><div class="wrap">Packrift owned public reference content for packaging dimensions, fit checks, and warehouse planning. Verify live price, inventory, and checkout terms on Packrift.com.</div></footer>
+  <footer><div class="wrap">Packrift owned public reference content for packaging dimensions, fit checks, and warehouse planning. Use the <a href="https://packrift.com/pages/tools">Packrift packaging tools hub</a> for calculators and related libraries, and verify live price, inventory, and checkout terms on Packrift.com.</div></footer>
 </body>
 </html>
 `;
